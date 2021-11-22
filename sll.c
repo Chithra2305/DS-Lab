@@ -100,6 +100,7 @@ void display(){
         printf("%d ", temp -> data);
         temp = temp -> link;
     }
+    printf("\n");
 }
 
 void reverse_display(struct node * head){
@@ -108,6 +109,7 @@ void reverse_display(struct node * head){
         reverse_display(head -> link);
         printf("%d ", head -> data);
     }
+    printf("\n");
 }
 
 int search(int key){
@@ -127,7 +129,7 @@ struct node * sort(){
     temp = head;
     temp1 = head;
     while(temp != NULL){
-        while(temp1 != NULL){
+        while(temp1 -> link != NULL){
             if(temp1 -> data >  temp1 -> link -> data){
                 x = temp1 -> data;
                 temp1 -> data = temp1 -> link -> data;
