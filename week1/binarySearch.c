@@ -34,9 +34,12 @@ int main(){
         printf("\nThe element %d is found at index %d in the given array", ele, a);
     }
     
-    /*
-    Ouput:
-    Enter the size of the array: 3
+    return 0;
+}
+
+/*
+Ouput:
+Enter the size of the array: 3
 
 Enter the elements of the array:
 1
@@ -60,5 +63,3 @@ Enter the element to be searched: 2
 The element 2 is found at index 1 in the given array
 
 */
-    return 0;
-}
