@@ -31,3 +31,31 @@ int main(){
     }
     return 0;
 }
+
+
+/*
+Ouput:
+Enter the size of the array: 3
+
+Enter the elements of the array:
+1
+34
+2
+
+Enter the element to be searched: 34
+
+The element 34 is found at index 1 in the given array
+
+Enter the size of the array: 4
+
+Enter the elements of the array: 
+1
+2
+3
+4
+
+Enter the element to be searched: 2
+
+The element 2 is found at index 1 in the given array
+
+*/
